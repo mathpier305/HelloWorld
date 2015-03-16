@@ -1,0 +1,439 @@
+scifct@SCIFCT-LP /c/users/scifct/AndroidStudioProjects (master)
+scifct@SCIFCT-LP /c/Android/Native/HelloJni (master)
+$ history
+    1  ls
+    2  test
+    3  get config --global user.name "math305"
+    4  git config --global user.name "math305"
+    5  git config --global user.name "mathpierdev305@gmail.com"
+    6  git config --global user.name "mathpierdev305"
+    7  git config --global user.email "mathpierdev305@gmail.com"
+    8  ls
+    9  git init gitprojects
+   10  cd gitprojects/
+   11  ls
+   12  git status
+   13  git add .
+   14   git status
+   15  git rm --cached test.txt
+   16  git status
+   17  git commit -m "initial commit"
+   18  git log
+   19  git status
+   20  git add test.txt
+   21  git status
+   22  git commit  -m "start tracking test.txt"
+   23  git status
+   24  git status
+   25  git commit -m "change readme"
+   26  git add .
+   27  git status
+   28  git log
+   29  status
+   30  git status
+   31   git status
+   32  git add .
+   33  git commit -m "another commit for readme and text "
+   34  git status
+   35  git status
+   36  git diff
+   37  git diff
+   38  git add readme.txt
+   39  git diff
+   40  git diff --cached
+   41  git status
+   42  git .
+   43  git add .
+   44  git commit -m "new file and changes"
+   45  get logs
+   46  git log
+   47  git log --oneline
+   48  git status
+   49  git status -s
+   50  ls
+   51  git status
+   52  git add .
+   53  git status
+   54  git status -s
+   55  git commit -m "finished working on readme on text for 02-13-2015"
+   56  exit
+   57  git log
+   58  git status
+   59  ls
+   60  cd gitprojects/
+   61  ls
+   62  git status
+   63  git log
+   64  ls
+   65  cd C:/
+   66  ls
+   67  cd java
+   68  ls
+   69  cd myPrograms/
+   70  ls
+   71  cd Chapter17/
+   72  ls
+   73  git status
+   74  cd ..
+   75  git init chapter17
+   76  cd chapter17
+   77  ls
+   78  git status
+   79  git add .
+   80  git status
+   81  git commit -m "initial commit"
+   82  git status
+   83  git add .
+   84  ls
+   85  git status
+   86  git log
+   87  cd c:ls
+   88  cd C:/
+   89  cd users
+   90  cd scifct/AndroidStudioProjects/
+   91  cd ..
+   92  git init AndroidStudioProjects/
+   93  git add .
+   94  cd AndroidStudioProjects/
+   95  git add .
+   96  git commit -m "initial commit for whole Android Studio projects"
+   97  git log
+   98  git status
+   99  history
+  100  git log
+  101  git diff
+  102  ssh-keygen -t rsa -c "mathpierdev305@gmail.com"
+  103  ssh-keygen -t rsa -C "mathpierdev305@gmail.com"
+  104  ssh -T git@github.com
+  105  cd c:\Android
+  106  cd Native/
+  107  ls
+  108  git init HelloJni
+  109  cd HelloJni/
+  110  ls
+  111  git add .
+  112  git status
+  113  git commit  -m "initial commit"
+  114  git log
+  115  git remote add origin git@github.com:mathpier305/HelloWorld.git
+  116  git push origin master
+  117  history
+
+scifct@SCIFCT-LP /c/Android/Native/HelloJni (master)
+$
+
+scifct@SCIFCT-LP /c/users/scifct/AndroidStudioProjects (master)
+$ git log
+commit dbfb651c1ea33793fce6176fd8909d45912d68ef
+Author: mathpierdev305 <mathpierdev305@gmail.com>
+Date:   Sun Mar 15 17:19:48 2015 -0400
+
+    initial commit for whole Android Studio projects
+
+scifct@SCIFCT-LP /c/users/scifct/AndroidStudioProjects (master)
+$ git diff
+
+scifct@SCIFCT-LP /c/users/scifct/AndroidStudioProjects (master)
+$ git
+
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   readme.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        test.txt
+
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git commit -m "initial commit"
+[master (root-commit) 4e40f57] initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme.txt
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git log
+commit 4e40f574f3066947652fb85218a0ea59a45aab3e
+Author: mathpierdev305 <mathpierdev305@gmail.com>
+Date:   Fri Feb 13 12:26:44 2015 -0500
+
+    initial commit
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git add test.txt
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   test.txt
+
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git commit  -m "start tracking test.txt"
+[master 3503a9f] start tracking test.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   readme.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git commit -m "change readme"
+On branch master
+Changes not staged for commit:
+        modified:   readme.txt
+
+no changes added to commit
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git add .
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   readme.txt
+
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git log
+commit 3503a9fa8d1b2cdf7723abe6930c0c83387f95e6
+Author: mathpierdev305 <mathpierdev305@gmail.com>
+Date:   Fri Feb 13 12:27:50 2015 -0500
+
+    start tracking test.txt
+
+commit 4e40f574f3066947652fb85218a0ea59a45aab3e
+Author: mathpierdev305 <mathpierdev305@gmail.com>
+Date:   Fri Feb 13 12:26:44 2015 -0500
+
+    initial commit
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ status
+sh.exe": status: command not found
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   readme.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test.txt
+
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$  git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   readme.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   readme.txt
+        modified:   test.txt
+
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git add .
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git commit -m "another commit for readme and text "
+[master 688ef55] another commit for readme and text
+ 2 files changed, 4 insertions(+)
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        lolv.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        lolv.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git diff
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git diff
+diff --git a/readme.txt b/readme.txt
+index eeef142..e924f14 100644
+--- a/readme.txt
++++ b/readme.txt
+@@ -1,3 +1,5 @@
+ I am reading this file
+
+-I love you
+\ No newline at end of file
++I love you
++
++.
+\ No newline at end of file
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git add readme.txt
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git diff
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git diff --cached
+diff --git a/readme.txt b/readme.txt
+index eeef142..e924f14 100644
+--- a/readme.txt
++++ b/readme.txt
+@@ -1,3 +1,5 @@
+ I am reading this file
+
+-I love you
+\ No newline at end of file
++I love you
++
++.
+\ No newline at end of file
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   readme.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        lolv.txt
+
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git .
+git: '.' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+        am
+        gc
+        mv
+        p4
+        rm
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git add .
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git commit -m "new file and changes"
+[master fb8f280] new file and changes
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+ create mode 100644 lolv.txt
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ get logs
+sh.exe": get: command not found
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git log
+commit fb8f280ce58343a358d4669b1f34797f6b7592c9
+Author: mathpierdev305 <mathpierdev305@gmail.com>
+Date:   Fri Feb 13 12:46:28 2015 -0500
+
+    new file and changes
+
+commit 688ef557d961de52a22e078db25c2dddde075717
+Author: mathpierdev305 <mathpierdev305@gmail.com>
+Date:   Fri Feb 13 12:31:05 2015 -0500
+
+    another commit for readme and text
+
+commit 3503a9fa8d1b2cdf7723abe6930c0c83387f95e6
+Author: mathpierdev305 <mathpierdev305@gmail.com>
+Date:   Fri Feb 13 12:27:50 2015 -0500
+
+    start tracking test.txt
+
+commit 4e40f574f3066947652fb85218a0ea59a45aab3e
+Author: mathpierdev305 <mathpierdev305@gmail.com>
+Date:   Fri Feb 13 12:26:44 2015 -0500
+
+    initial commit
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git log --oneline
+fb8f280 new file and changes
+688ef55 another commit for readme and text
+3503a9f start tracking test.txt
+4e40f57 initial commit
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   readme.txt
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$ git status -s
+ M readme.txt
+ M test.txt
+
+scifct@SCIFCT-LP /c/Android/Project/gitprojects (master)
+$
+
